@@ -1,52 +1,74 @@
 /* CSS File for CS50w Git Chapter - Susan Shrestha (cNobi) */
 
 
-            * {
-                margin: 0;
-                padding: 0;
+@media screen and (max-width:600px) {
+h3, p {
+    font-size: 20px;
+}
+    
+}
 
-            }
+* {
+    margin: 0;
+    padding: 0;
 
-            html {
-                font-size: 1.5rem;
-            }
+}
 
-            #logo img {
-                width: 120px;
-                height: 50px;
-                }
+html {
+    font-size: 16px;
+    font-family: Lato;
+}
 
-            header, main {
-                margin: auto;
-                width: 80%;
-                padding: 5%;
-            }
+#logo {
+    background-image: url("https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png");
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    
+    }
 
-            header #logo {
-                display: inline;
-                float: left;
-            }
+header, main {
+    margin: auto;
+    width: 80%;
+    padding: 5%;
+}
+
+
+
+
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(28, 28, 184);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(240, 46, 33); 
+    font-weight: bold;
+}
+
+#top-nav-bar {
+    padding: 20px;
+    background: rgba(241, 99, 56, 0.2);
+    margin-top: 20px;
+}
+
+header #title {
+    display: inline-block;
+    border: 1px solid blue;
+    margin-left: 125px;
+    
+    
+}
 
             
-
-            nav ul li {
-                display: inline;
-                padding: 4px;
-            }
-
-            nav ul li a {
-                text-decoration: none;
-                font-size: 16px;
-            }
-
-            nav ul li a:hover {
-                text-decoration: none;
-                font-size: 16px;
-                color: rgb(240, 46, 33); 
-                font-weight: bold;
-            }
-
-            #top-nav-bar {
-                padding: 10px;
-                background: rgba(241, 99, 56, 0.2); 
-            }
